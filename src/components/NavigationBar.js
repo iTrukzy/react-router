@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  Link
+  Link,
 } from "react-router-dom";
 
 const NavigationBar = () => {
@@ -11,7 +11,7 @@ const NavigationBar = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link className="nav-link active" to="/" >Home</Link>
+                                <Link className="nav-link" to="/" >Home</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/about">About</Link>
